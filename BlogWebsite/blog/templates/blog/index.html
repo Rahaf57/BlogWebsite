@@ -1,0 +1,13 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+  <h2>Welcome to My Blog</h2>
+  <p>Explore my blog posts:</p>
+  <ul>
+    <li><a href="{% url 'index' %}">View Home Page </a></li>
+    <li><a href="{% url 'blogs' %}">View All Blogs</a></li>
+    <li><a href="{% url 'users' %}">View All Users</a></li>
+    <li><a href="{% url 'categories' %}">View All Categories</a></li>
+    <li><a href="{% url 'comments' %}">View All Comments</a></li>
+  </ul>
+{% endblock %}
