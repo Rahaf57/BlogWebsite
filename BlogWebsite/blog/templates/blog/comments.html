@@ -1,0 +1,16 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<ul>
+    <li><a href="{% url 'index' %}">Home</a></li>
+  </ul>
+
+  <h2>All Comments</h2>
+  <ul>
+    {% for comment in comments %}
+      <li>
+        {{ comment.content }} - Blog ID: {{ comment.post.id }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
