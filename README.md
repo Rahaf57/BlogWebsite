@@ -60,13 +60,13 @@ The project should now be running locally at http://localhost:8000/. You can acc
 1. Home page :
 http://127.0.0.1:8000/
 
-![img_8.png](img_8.png)
+
 
 
 2. Base Page :
 http://127.0.0.1:8000/base/
 
-![img_2.png](img_2.png)
+
 
 
 3. Users Page :
@@ -78,25 +78,25 @@ http://127.0.0.1:8000/users/
 4. Blogs Page :
 http://127.0.0.1:8000/blogs/
 
-![img_4.png](img_4.png)
+
 
 
 5. Comments Page :
 http://127.0.0.1:8000/comments/
 
-![img_5.png](img_5.png)
+
 
 
 6. Categories Page :
 http://127.0.0.1:8000/categories/
 
-![img_6.png](img_6.png)
+
 
 
 7. blog details Page :
 http://127.0.0.1:8000/blogdetails/2/
 
-![img_7.png](img_7.png)
+
 
 ## Dependencies
 
